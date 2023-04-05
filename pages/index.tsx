@@ -8,7 +8,7 @@ import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import Levels from '../components/Levels'
 import{ Agencies } from '../components/Agencies'
-
+import Footer from '../components/Footer'
 
 
 export default function Home() {
@@ -26,8 +26,7 @@ export default function Home() {
       <br/>
       <Levels/>
       <Agencies/>
-giygit rest
-
+      <Footer/>
     </NextUIProvider>
   )
 
