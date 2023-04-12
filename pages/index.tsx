@@ -26,7 +26,7 @@ export default function Home() {
       <br/>
       <Levels/>
       <Agencies/>
-      <Footer/>
+     
     </NextUIProvider>
   )
 
