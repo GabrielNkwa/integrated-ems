@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/mobile.js"
-    ],
-    "/mobilelogin": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/mobilelogin.js"
     ]
   },
   "ampFirstPages": []
