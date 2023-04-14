@@ -51,6 +51,15 @@ export default function Emergency() {
         </ListItemAvatar>
         <ListItemText primary="Vehicle Accident" secondary="" />
       </ListItem>
+      <Divider variant="inset" component="li" />
+      <ListItem>
+        <ListItemAvatar>
+          <Avatar>
+            <ApartmentIcon/>
+          </Avatar>
+        </ListItemAvatar>
+        <ListItemText primary="Collapsed Building" secondary="" />
+      </ListItem>
     </List>
 
   )

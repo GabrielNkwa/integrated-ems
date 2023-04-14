@@ -8,9 +8,10 @@ import Emergency from '../components/Emergency'
 export const mobile = () => {
   return (
     <>
+    
     <MobileNavbar/>
     <Maps/>
-    <Alert/>
+    
     <Emergency/>
 
 

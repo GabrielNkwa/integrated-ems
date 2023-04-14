@@ -1,9 +1,22 @@
 import React from 'react'
-import UserDetail from '../components'
-const Profile = () => {
+import MobileNavbar from '@/components/MobileNavbar'
+import Card from '@/components/Card'
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import Link from 'next/link';
+
+
+
+const profile = () => {
   return (
-    <div>Profile</div>
+    <>
+        <MobileNavbar/>
+        <Link href='/mobile'>
+        <div className='p-1'><ArrowBackIosIcon/>Back</div>
+        </Link>
+    <Card/>
+    
+    </>
   )
 }
 
-export default Profile
+export default profile;

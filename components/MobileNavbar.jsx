@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import { useState, useEffect } from "react";
 import {
   Navbar,
@@ -28,20 +29,13 @@ export default function MobileNavbar() {
           color="blue-gray"
           className="p-1 font-normal"
         >
-          <a href="#" className="flex items-center">
+          <Link className="flex items-center" href='/profile'>
+         
             Profile
-          </a>
+         
+          </Link>
         </Typography>
-        <Typography
-          as="li"
-          variant="small"
-          color="blue-gray"
-          className="p-1 font-normal"
-        >
-          <a href="#" className="flex items-center">
-            Location
-          </a>
-        </Typography>
+       
        
       </ul>
     );
@@ -58,9 +52,11 @@ export default function MobileNavbar() {
         <span>Emergency Management System</span>
       </Typography>
       <div className="hidden lg:block">{navList}</div>
+      <Link href='/mobilelogin'>
       <Button variant="gradient" size="sm" className="hidden lg:inline-block">
         <span>Sign out</span>
       </Button>
+      </Link>
       <IconButton
         variant="text"
         className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -101,10 +97,13 @@ export default function MobileNavbar() {
     </div>
     <MobileNav open={openNav}>
       <div className="container mx-auto">
+
         {navList}
+        <Link href='/mobilelogin'>
         <Button variant="gradient" size="sm" fullWidth className="mb-2">
           <span>Sign Out</span>
         </Button>
+        </Link>
       </div>
     </MobileNav>
   </Navbar>
