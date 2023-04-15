@@ -17,9 +17,12 @@ const Navbar = () => {
 
   useEffect(()=>{
         if(
-          router.asPath === '/boozesticks' ||
-          router.asPath === '/portfolio'   ||
-          router.asPath === '/portfolio'
+          router.asPath === '/' ||
+          router.asPath === '/about' ||
+          router.asPath === '/frsc' ||
+          router.asPath === '/nema' || 
+          router.asPath === '/npf' || 
+          router.asPath === '/ffs' 
         ){
           setNavBg('transparent')
           setLinkColor('#Ecf0f3')
@@ -63,7 +66,7 @@ const Navbar = () => {
               <Link href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
               </Link>
-              <Link href='/#about'>
+              <Link href='/about'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
               </Link>
              

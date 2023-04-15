@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 export const Agencies = () => {
@@ -11,6 +12,7 @@ export const Agencies = () => {
           <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <Link href='/nema'>
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                       <div className='a-auto'>
                           <Image
@@ -24,8 +26,11 @@ export const Agencies = () => {
                       <h4>National Emergency Management Agency</h4>
                       </div>
               </div>
+              </Link>
           </div>
+          
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <Link href='/ffs'>
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                       <div className='a-auto'>
                           <Image
@@ -39,9 +44,11 @@ export const Agencies = () => {
                       <h4>Federal Fire Service</h4>
                       </div>
               </div>
+              </Link>
           </div>
 
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <Link href='/frsc'>
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                       <div className='a-auto'>
                           <Image
@@ -55,9 +62,11 @@ export const Agencies = () => {
                       <h4>Federal Road Safety Commission</h4>
                       </div>
               </div>
+              </Link>
           </div>
 
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <Link href='/npf'>
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                       <div className='a-auto'>
                           <Image
@@ -71,6 +80,7 @@ export const Agencies = () => {
                       <h4>Nigerian Police Force</h4>
                       </div>
               </div>
+              </Link>
           </div>
 
           </div>
