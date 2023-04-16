@@ -13,7 +13,7 @@ const npf = () => {
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'/>
         <Image className='absolute z-1' layout='fill' objectFit='cover' src='' alt='' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 text-white' >
-        <h2 className='py-2'>Federal Road Safety Commission</h2>
+        <h2 className='py-2'>Nigerian Police Force</h2>
         </div>
         </div>
 

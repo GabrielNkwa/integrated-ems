@@ -66,6 +66,24 @@ export const Agencies = () => {
           </div>
 
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <Link href='/ncdc'>
+              <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                      <div className='a-auto'>
+                          <Image
+                          src='/../public/assets/agencies/ncdc.jpg'
+                          width='64'
+                          height='64'
+                          alt='/'
+                          />
+                      </div>
+                      <div className='flex flex-col itm'>
+                      <h4>National Center for Disease Control and Prevention</h4>
+                      </div>
+              </div>
+              </Link>
+          </div>
+
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
           <Link href='/npf'>
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                       <div className='a-auto'>
