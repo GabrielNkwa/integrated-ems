@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/frsc": [
+    "/ffs": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/frsc.js"
+      "static/chunks/pages/ffs.js"
     ]
   },
   "ampFirstPages": []

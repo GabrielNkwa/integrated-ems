@@ -17,6 +17,9 @@ const FrscTable = () => {
       <Table.Column>Location</Table.Column>
       <Table.Column>Coordinates</Table.Column>
      <Table.Column>Severity</Table.Column>
+     <Table.Column>Reporter</Table.Column>
+     <Table.Column>Contact</Table.Column>
+     
     </Table.Header>
     <Table.Body>
     <Table.Row key="1">
@@ -24,6 +27,8 @@ const FrscTable = () => {
           <Table.Cell>Lugbe</Table.Cell>
           <Table.Cell>8.975073, 7.376306 </Table.Cell>
           <Table.Cell><Button className='bg-red-500' variant="contained">High</Button></Table.Cell>
+          <Table.Cell>Victor Orji</Table.Cell>
+          <Table.Cell>+234807645332</Table.Cell>
         </Table.Row>
     </Table.Body>
     </Table>

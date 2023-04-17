@@ -16,6 +16,8 @@ const NcdcTable = () => {
       <Table.Column>Location</Table.Column>
       <Table.Column>Coordinates</Table.Column>
      <Table.Column>Severity</Table.Column>
+     <Table.Column>Reporter</Table.Column>
+     <Table.Column>Contact</Table.Column>
     </Table.Header>
     <Table.Body>
     <Table.Row key="1">
@@ -29,6 +31,8 @@ const NcdcTable = () => {
           <Table.Cell>Abaji</Table.Cell>
           <Table.Cell>8.965053, 7.476306 </Table.Cell>
           <Table.Cell>Low</Table.Cell>
+          <Table.Cell>Victor Orji</Table.Cell>
+          <Table.Cell>+234807645332</Table.Cell>
         </Table.Row>
     </Table.Body>
     </Table>
