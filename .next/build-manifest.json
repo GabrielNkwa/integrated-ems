@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/ffs": [
+    "/agencylogin": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ffs.js"
+      "static/chunks/pages/agencylogin.js"
     ]
   },
   "ampFirstPages": []

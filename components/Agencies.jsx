@@ -10,7 +10,7 @@ export const Agencies = () => {
           <p className='text-xl tracking-widest uppercase text-[#5651e5] '></p>
           <h2 className='py-4'>Agencies</h2>
           <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-
+          <div><Link href='/agencylogin'>Agency Login</Link></div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <Link href='/nema'>
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
