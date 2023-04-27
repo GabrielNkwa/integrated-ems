@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
-import {RiRadioButtonFill} from 'react-icons/ri'
-import { Table } from '@nextui-org/react';
+
+
 import Nematable from '../components/Nematable';
 
 
@@ -37,4 +36,4 @@ const nema = () => {
   )
 }
 
-export default nema
+export default nema;

@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
-import {RiRadioButtonFill} from 'react-icons/ri'
-import { Table } from '@nextui-org/react';
+
+
 import NpfTable from '../components/NpfTable';
 
 
@@ -37,4 +36,4 @@ const npf = () => {
   )
 }
 
-export default npf
+export default npf;
