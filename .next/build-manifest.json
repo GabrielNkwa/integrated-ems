@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/agencylogin.js"
     ],
-    "/ncdc": [
+    "/ffs": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ncdc.js"
+      "static/chunks/pages/ffs.js"
     ]
   },
   "ampFirstPages": []
