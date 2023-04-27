@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import { Table } from '@nextui-org/react';
-import NematableTable from '../components/Nematable';
+import Nematable from '../components/Nematable';
 
 
 const nema = () => {

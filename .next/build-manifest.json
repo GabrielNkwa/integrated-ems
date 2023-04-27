@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/agencylogin.js"
+    ],
+    "/ncdc": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/ncdc.js"
     ]
   },
   "ampFirstPages": []

@@ -52,25 +52,7 @@ class MapContainer extends Component {
         >
           { /* Child components, such as markers, info windows, etc. */ }
           <>
-          <Script>
-  <GoogleMap
-    id="circle"
-    
-    zoom={7}
-    center={center}
-  >
-    <Circle
-      // optional
-      onLoad={onLoad}
-      // optional
-      onUnmount={onUnmount}
-      // required
-      center={center}
-      // required
-      options={options}
-    />
-  </GoogleMap>
-</Script>
+          
           </>
         </GoogleMap>
       </LoadScript>

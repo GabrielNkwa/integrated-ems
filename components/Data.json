@@ -1,0 +1,11 @@
+[
+    {
+    "ID" : 1,
+    "Location" : "Lugbe",
+    "Coordinates" : "9.079818, 7.492241",
+    "NatureOfEmergency" : "Fire Outbreak",
+    "Severity" : "High",
+    "Reporter" : "Victor Kalu",
+    "Contact" : "07044347789"
+   }
+]

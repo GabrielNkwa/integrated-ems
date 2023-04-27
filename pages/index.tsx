@@ -4,7 +4,7 @@ import { NextUIProvider } from '@nextui-org/react';
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import MapContainer from '../components/MapContainer'
-
+import DataChart from '../components/DataChart'
 import Main from '../components/Main'
 import Levels from '../components/Levels'
 import{ Agencies } from '../components/Agencies'
@@ -25,6 +25,7 @@ export default function Home() {
       <Main/>
       <br/>
       <Levels/>
+      <DataChart/>
       <Agencies/>
       <Footer/>
      
