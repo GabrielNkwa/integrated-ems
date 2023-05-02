@@ -55,7 +55,7 @@ const DataChart = () => {
     },
   };
 
-  return <Bar data={data} options={options} />;
+  return <Bar data={data} options={options} className='pt-10' />;
 };
 
 export default DataChart;

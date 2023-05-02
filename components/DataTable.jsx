@@ -7,7 +7,7 @@ export default function EmergencyTable() {
     {
       location: 'Lugbe',
       coordinates: '40.7128° N, 74.0060° W',
-      emergency: 'Fire',
+      emergency: 'Fire',    
       reporter: 'Victor Orji',
       contact: '09089567683'
     },
