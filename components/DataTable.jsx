@@ -68,6 +68,13 @@ export default function EmergencyTable() {
       reporter: 'Princewill Eke',
       contact: '08064849556'
     },
+    {
+      location: 'Kuje',
+      coordinates: '40.7128° , 74.0060° ',
+      emergency: 'Health Emergency/biohazard',
+      reporter: 'Adekunle Joseph',
+      contact: '09038484956'
+    },
   ]);
 
   const exportToExcel = () => {
@@ -78,7 +85,7 @@ export default function EmergencyTable() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
       <h2 className="text-2xl font-bold mb-4">Emergency Table</h2>
       <table className="table-auto w-full">
         <thead>
@@ -104,11 +111,11 @@ export default function EmergencyTable() {
       </table>
       <div className="flex justify-end mt-4">
         <button
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded "
           onClick={exportToExcel}
         >
           Export to Excel
-        </button>
+        </button> 
       </div>
       
     </div>

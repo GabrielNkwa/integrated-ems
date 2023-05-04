@@ -25,6 +25,9 @@ export default function Home() {
       <Main/>
       <br/>
       <Levels/>
+      <br />
+      <br />
+      <br />
       <DataChart/>
       <Agencies/>
       <Footer/>
