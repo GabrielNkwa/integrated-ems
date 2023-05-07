@@ -10,6 +10,13 @@ const FrscTable = () => {
       reporter: 'John Danjuma',
       contact: '080912346788'
     },
+    {
+      location: 'Kubwa',
+      coordinates: '40.7128° , 74.0060° ',
+      emergency: 'Vehicle Accident',
+      reporter: 'Kelvin Samuel',
+      contact: '08033063694'
+    },
   
   ]);
 

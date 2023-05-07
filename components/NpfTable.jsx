@@ -18,7 +18,13 @@ const NpfTable = () => {
       reporter: 'Mary Lukman',
       contact: '080384849556'
     },
-  
+    {
+      location: 'Kubwa',
+      coordinates: '40.7128° , 74.0060° ',
+      emergency: 'Security Incident',
+      reporter: 'Kelvin Samuel',
+      contact: '08033063694'
+    },
   ]);
 
   const exportToExcel = () => {
