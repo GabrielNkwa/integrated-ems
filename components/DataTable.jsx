@@ -75,6 +75,13 @@ export default function EmergencyTable() {
       reporter: 'Adekunle Joseph',
       contact: '09038484956'
     },
+    {
+      location: 'Kubwa',
+      coordinates: '40.7128° , 74.0060° ',
+      emergency: 'Fire Outbreak',
+      reporter: 'Kelvin Samuel',
+      contact: '08033063694'
+    },
   ]);
 
   const exportToExcel = () => {

@@ -11,6 +11,13 @@ const FfsTable = () => {
       reporter: 'Victor Orji',
       contact: '09089567683'
     },
+    {
+      location: 'Kubwa',
+      coordinates: '40.7128° , 74.0060° ',
+      emergency: 'Fire Outbreak',
+      reporter: 'Kelvin Samuel',
+      contact: '08033063694'
+    },
   
   ]);
 
